@@ -1,0 +1,25 @@
+.counter{
+    margin-top : 30px;
+    width : 450px;
+    height : 250px;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 20px;
+    border-radius: 20px;
+}
+#countDisplay{
+    font-size: 2rem;
+    color: #333;
+}
+button{
+    width : 100px;
+    height : 40px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: rgb(142, 210, 236);
+    border : none;
+    border-radius: 20px;
+}   

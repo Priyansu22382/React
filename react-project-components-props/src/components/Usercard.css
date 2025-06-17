@@ -1,0 +1,22 @@
+.usercard{
+    width : 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 20px;
+    background-color: beige;
+    padding : 20px;
+    border-radius: 20px;
+    border : 1px solid black;
+}
+.usercard h1{
+    font-size : 20px;
+    color : black;
+    text-align : center;
+}
+#image{
+    width : 200px;
+    height : 300px;
+    border-radius: 50%;
+}

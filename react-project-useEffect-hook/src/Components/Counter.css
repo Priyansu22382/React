@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.counter{
+    width : 350px;
+    height : 200px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    border : 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 20px;
+}
+#title{
+    font-size: 2.5rem;
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#btn{
+    width : 100px;
+    height : 40px;
+    border-radius : 15px;
+    border:none;
+    background-color: #4CAF50;
+}
