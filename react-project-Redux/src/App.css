@@ -1,0 +1,27 @@
+.counter-container{
+  width : 450px;
+  height : 300px;
+  background-color: black;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap : 20px;
+}
+.counter-container p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2.5rem;
+  color : white;
+  font-weight: bold;
+}
+.counter-container button{
+  width : 100px;
+  height : 40px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: rgb(142, 210, 236);
+  border : none;
+  border-radius: 20px;
+}
